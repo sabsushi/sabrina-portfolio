@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina El-Aouar | Creative Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediastyle.css">
+</head>
+<body>
+
+    <div class="cursor-glow"></div>
+
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">S<span>E</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="assets/img/sab.jpg" alt="Sabrina" class="profile-pic">
+            </div>
+            <div class="hero-text" data-aos="fade-up">
+                <span class="badge">Available for Projects</span>
+                <h1>Crafting Digital <span>Experiences</span></h1>
+                <p>Web Developer & Graphic Designer student at <strong>ETIC_Algarve</strong>. Specializing in clean code and modern aesthetics.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-cta primary">View My Work</a>
+                    <a href="#contact" class="btn-cta secondary">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <section id="about" class="section" data-aos="fade-up">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h3>Development</h3>
+                    <p>Building responsive, high-performance websites using modern tech stacks and clean architecture.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-pen-nib"></i></div>
+                    <h3>Design</h3>
+                    <p>Creating visual identities and UI components that communicate brand values effectively.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Project Showcase</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="featured-project" data-aos="fade-up">
+                <div class="project-img-wrapper">
+                    <img src="assets/img/villaFlow.png" alt="VillaFlow" class="featured-img">
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project-info">
+                    <span class="tag">Featured Work</span>
+                    <h3>VillaFlow Studio</h3>
+                    <p>A multi-page professional website developed for a creative agency, focusing on sleek navigation, high-end typography, and responsive accessibility.</p>
+                    <div class="project-links">
+                        <a href="https://sabsushi.github.io/sabrina-frontend1-project/" target="_blank" class="live-btn">Live Preview <i class="fas fa-external-link"></i></a>
+                        <a href="https://github.com/sabsushi/sabrina-frontend1-project" target="_blank" class="repo-btn"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-container">
+                <form id="contact-form" class="glass-form">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" placeholder="Tell me about your project..." rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p id="msg-sent" class="success-text"> Success! Your message has been sent.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-socials">
+            <a href="https://github.com/sabsushi" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/sabrina_elaouar" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:sabrinaelaouar@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2024 Sabrina El-Aouar. Crafted at ETIC_Algarve</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
